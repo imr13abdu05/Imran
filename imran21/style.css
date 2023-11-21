@@ -1,0 +1,54 @@
+.card{
+    width: 300px;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 10px;
+    animation: anim1 3s infinite;
+    
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.card2{
+    animation: anim2 3s infinite;
+}
+.sport{
+    display: flex;
+    justify-content:center ;
+    padding: 200px;
+    
+
+}
+.mujil{
+    animation: anim3 3s infinite;
+}
+.ky{
+    padding: 100px;
+    font-size: 25px;
+}
+@keyframes anim3 {
+    0% {
+transform: translateY(1000px) rotate(360deg);
+    }
+    100% {
+transform: translateY(-1000) ;
+    }
+}
+@keyframes anim1 {
+    0% {
+        transform: translate(-1000px) rotate(360deg) skew(30deg) ;
+    }
+    100% {
+        transform: translate(0.5);
+    }
+}
+@keyframes anim2 {
+    0% {
+        transform: translate(1000px) rotate(360deg) skew(30deg) ;
+    }
+    100% {
+        transform: translate(0.5);
+    }
+}
