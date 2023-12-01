@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -134,7 +135,7 @@
 
     <section class="blog">
         <div class="text1">
-            <h2>БЛОГ</h2>
+           
         </div>
     </section>
 
@@ -153,17 +154,17 @@
 
     <div class="img2">
         <img class="img3" src="Rectangle 107.png" alt="">
-        <h1>Mike</h1>
+        <h1 class="text5">Mike</h1>
         <p>Главный инструктор</p>
     </div>
     <div class="img2">
         <img class="img3" src="Rectangle 108 (6).png" alt="">
-        <h1>Mary</h1>
+        <h1 class="text5">Mary</h1>
         <p> инструктор</p>
     </div>
     <div class="img2">
         <img class="img3" src="Rectangle 109 (1).png" alt="">
-        <h1>Ольга</h1>
+        <h1 class="text5">Ольга</h1>
         <p> инструктор</p>
 
     </div>
@@ -171,9 +172,98 @@
     <section class="paketi">
         <div class="container">
             <h2>ПАКЕТЫ УСЛУГ</h2>
+            <div class="cards">
+            <div class="card">
+                <h2  class="text4">Стандарт</h2>
+                <p>Проживание на вилле 6 ночей </p>
+                <p>Номер категории стандарт</p>
+                <p>Экипировка для обучения</p>
+                <p>Обучение серфингу 5 тренировок по 2 часа</p>
+                <p>Страховка</p>
+                <p>Вечеринка с угощениями и дискотекой</p>
+            </div>
+            <div class="card">
+                <h2 class="text4">Всё влючено</h2>
+                <p>Проживание на вилле 6 ночей </p>
+                <p>Номер категории люкс</p>
+                <p>Экипировка для обучения</p>
+                <p>Обучение серфингу 8 тренировок по 2 часа</p>
+                <p>Страховка</p>
+                <p>Вечеринка с угощениями и дискотекой</p>
+                <p>Авиа перелет Тенерифе -Лансароте - Тенерифе </p>
+                <p>Завтраки на вилле</p>
+            </div>
+            <div class="card">
+                <h2  class="text4">Профи</h2>
+                <p>Проживание на вилле 8 ночей </p>
+                <p>Номер категории люкс</p>
+                <p>Экипировка для обучения</p>
+                <p>Обучение серфингу 16 тренировок по 2 часа</p>
+                <p>Страховка</p>
+                <p>Вечеринка с угощениями и дискотекой</p>
+                <p>Авиа перелет Тенерифе -Лансароте - Тенерифе </p>
+                <p>Завтраки и ужины на вилле</p>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section class="blog">
+        <div class="container-max">
+            <h2>БЛОГ</h2>
+
+            <div class="slider">
+                <div class="slide">
+                   <div>
+                    <h3>ЧТО НЕОБХОДИМО ВЗЯТЬ С <br> СОБОЙ НА СЕРФ ТУР</h3>
+                    <p>ТОП 20 необходимых вещей для комфортного отдыха и обучения</p>
+                   </div>
+                </div>
+                <div class="slide">
+                    <div>
+                        <h3>ЧТО НЕОБХОДИМО ВЗЯТЬ С <br> СОБОЙ НА СЕРФ ТУР</h3>
+                    <p>ТОП 20 необходимых вещей для комфортного отдыха и обучения</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div>
+                        <h3>ЧТО НЕОБХОДИМО ВЗЯТЬ С <br> СОБОЙ НА СЕРФ ТУР</h3>
+                    <p>ТОП 20 необходимых вещей для комфортного отдыха и обучения</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-</body>
+<section class="bid">
+    <div class="container">
+        
+    </div>
+    <h2>ОСТАВИТЬ ЗАЯВКУ</h2>
+    <div class="wrap">
+        <form action="">
+            <input placeholder="Имя" type="text">
+            <input placeholder="Телефон" type="text">
+            <input placeholder="Оставьте сообщение, и мы  свяжемся с Вами в ближайшее  время" type="text">
+            <button>ОТПРАВИТЬ</button>
+        </form>
+        <div class="box">
+            <p>Есть вопрос?
+                Вы можете связаться с нами:
+                </p>
+        <p>WhatsApp, Viber, Telegram
 
+            +3 467 486-37-88</p>
+        <p>Avenida grandes playas 79, 
+            Corralejo la Oliva Fuerteventura, 
+            Spain. 35660</p>
+        </div>
+    </div>
+</section>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+    $('.slider').slick();
+</script>
 </html>
